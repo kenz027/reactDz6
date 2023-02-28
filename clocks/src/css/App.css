@@ -1,0 +1,38 @@
+.App{
+
+}
+.form{
+
+}
+.clocks{
+    list-style-type: none;
+}
+.clock{
+
+}
+.clock-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+.clock-circle-arrow{
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all .2s;
+}
+.clock-circle-arrow:nth-child(1){
+    height: 5px;
+}
+.clock-circle-arrow:nth-child(2){
+    height: 3px;
+}
+.clock-circle-arrow:nth-child(3){
+    height: 1px;
+}

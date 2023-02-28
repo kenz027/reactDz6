@@ -1,0 +1,9 @@
+.App-title {
+  margin-bottom: 50px;
+}
+
+.App-notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
